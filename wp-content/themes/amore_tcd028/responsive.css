@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body { min-width:100%; }
+
+
+/*-----------------------------------------
+  common
+-----------------------------------------*/
+.amore-divider{
+  overflow:hidden;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  color: rgb(250,250,250);
+}
+
+.top-headline{
+  font-size: 26px;
+}
+
+
+/*-----------------------------------------
+  top page (welcome screen)
+-----------------------------------------*/
+
+/* first block */
+h1.first-h1{
+  width: 90%;
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 20px;
+  line-height: 170%;
+  text-shadow: 0 0 10px #666;
+}
+
+/* second block */
+.second-lead{
+  width: 90%;
+  margin: 0 auto;
+}
+.second-body{
+  width: 90%;
+  margin: 0 auto;
+}
+.second-img{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* 3rd block */
+#third .amore-section>div{
+  margin-bottom: 50px;
+}
+#third .amore-section>div:last-child{
+  margin-bottom: 0;
+}
+
+/* 4th block */
+#fourth>div>.amore-section{
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+
+
+
+/*-----------------------------------------
+  posts page (index.php)
+-----------------------------------------*/
+#blog-index>div{
+  margin-top: 0px !important;
+}
+
+#blog-index>div>div{
+  margin-bottom: 30px;
+}
+
+.blog-list-title{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 10px 0;
+  color: #000;
+  display: block;
+}
+
+.blog-list-body{
+  line-height: 150%;
+}
+
+.blog-load-btn{
+  margin-bottom:50px;
+  margin-top:20px
+}
+
